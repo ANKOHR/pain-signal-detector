@@ -1,0 +1,6 @@
+# SYNTHETIC hand-written example, no real observations
+{"id":"tiny-1","kind":"website","source_url":"https://example.invalid/one","observed_on":"2026-09-29","http_status":503,"evidence":"Synthetic server error","synthetic":true}
+{"id":"tiny-2","kind":"contact","source_url":"https://example.invalid/two","observed_on":"2026-09-29","http_status":404,"evidence":"Synthetic broken contact endpoint","synthetic":true}
+{"id":"tiny-3","kind":"public_issue","source_url":"https://example.invalid/three","observed_on":"2026-09-29","status":"open","due_on":"2026-09-01","evidence":"Synthetic unresolved overdue issue","synthetic":true}
+{"id":"tiny-4","kind":"website","source_url":"https://example.invalid/four","observed_on":"2026-09-29","http_status":200,"evidence":"Synthetic healthy website","synthetic":true}
+{"id":"tiny-5","kind":"public_issue","source_url":"https://example.invalid/five","observed_on":"2026-09-29","status":"resolved","due_on":"2026-09-01","evidence":"Synthetic resolved issue","synthetic":true}
