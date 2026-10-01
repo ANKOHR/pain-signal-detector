@@ -1,0 +1,9 @@
+Pain Signal Detector local build complete, 2026-10-01
+
+Test count: 34 passed (python -m pytest -q).
+Local implementation commit: f1a9e0e72159ace3d25acbfd702bf3b3bcc6c6be
+This identifies the tested implementation; the subsequent completion-record commit adds this file.
+Measured installed-CLI demo: 0.760957 seconds for fixtures, run, and Markdown report write, below the 5-second acceptance threshold.
+Fixture results: 200 synthetic records, 90 flagged, 110 unflagged; 40 server errors, 30 broken contact endpoints, 20 overdue public issues. All planted IDs found, zero fixture false positives.
+
+Built a local-only, deterministic Python psd CLI with fixtures, run, report, signals, and explain commands. The pure engine validates author-supplied public observations, computes three explicit operational signals, and preserves each finding's URL, date, evidence, and declared provenance. Reports render Markdown or JSON, reconcile all validated records, reject corrupted saved figures, label synthetic inputs and unmeasured hypothetical benefits, and write atomically. The repository includes a labelled 200-record fixture oracle, a hand-written five-record example, adversarial and end-to-end tests, full usage and schema documentation, measured acceptance evidence, KOML lessons, and a provisional maintain verdict pending the two-week real-use accuracy hook. No real data, savings, demand, or revenue has been invented. Nothing was published; GitHub publication is reserved for the separate verification step.
